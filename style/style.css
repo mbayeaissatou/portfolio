@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color:   rgb(21, 9, 48);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(21, 9, 48);
+    align-items: center;
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 26px;
+}
+
+nav h1 {
+    color: red;
+}
+
+
+#section-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+
+.box1 h2{
+    text-align: left;
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+.box1 h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.box1 p{
+    color: white;
+}
+
+
+.box2 img {
+    height: auto;
+    width: 500px;
+}
+
+
+.dev button{
+    color: white;
+}
+
+#item{
+    color: white;
+}
+
+#item h1{
+    color: red;
+    margin-bottom: 10px;
+}
+
+.drav {
+    text-align: center;
+    color: white;
+}
+
+.mbaye{
+    width: 600px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+label {
+    color: white;
+}
+
+input , textarea{
+    background-color: transparent;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+ .mbaye button{
+    border: none;
+    color: rgb(16, 9, 31);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mbaye button:hover{
+
+    background-color: blue;
+    color: red;
+}
+
+
+.input-groupe{
+    margin-bottom: 20px;
+    
+}
+
+input::placeholder{
+    color: #ccc;
+}
+
+footer {
+    position: relative;
+    background-color: black;
+    padding: 60px;
+}
+
+
+.social-media {
+    color: #ccc;
+    background-color: transparent;
+    text-align: center;
+}
+
+.social-media i {
+    font-size: 24px;
+    background-color: white;
+    color: #000;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+
