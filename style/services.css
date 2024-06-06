@@ -1,0 +1,58 @@
+.text{
+    margin-bottom: 5px;
+}
+
+.text button{
+   padding: 5px;
+   font-size: 20px;
+   color: white;
+   border: none;
+   background-color: black;
+}
+
+.projet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 80px;
+    margin-top: 20px; 
+}
+
+.projet .card {
+    width: 340px;
+    height: 390px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.projet .card img {
+    width: 340px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+footer ul{
+    display: flex;
+    text-decoration: none;
+}
+
+footer li{
+    list-style: none;
+    margin: 10%;
+    color: red;
+   
+}
+.brand img {
+    max-width: 180px;
+    height: auto;
+  }
+

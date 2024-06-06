@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(21, 9, 48);
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 26px;
+}
+
+nav h1 {
+    color: red;
+}
+.brand img {
+    max-width: 180px;
+    height: auto;
+  }
+
+section{
+    background-image: url(/media/acceuil2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(249, 6, 6);
+}
+p{
+    font-size: 30%;
+}
+
+footer {
+    background: red !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 0px;
+  }
+  
+  
+  .social-media {
+    color: white;
+    text-align: center;
+  }
+  
+  .social-media i {
+    font-size: 24px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px;
+  }
