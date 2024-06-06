@@ -27,7 +27,7 @@ nav h1 {
   }
 
 section{
-    background-image: url(/media/acceuil2.jpg);
+    background-image: url(../media/acceuil2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(249, 6, 6);
