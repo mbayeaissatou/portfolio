@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+
 .card img{
     width: 100%;
     border-radius: 20px;
@@ -29,5 +37,12 @@
     justify-content: center;
     gap: 10px;
     padding: 80px;
+    height: 5rem;
+    margin-top: 10rem;
+}
+
+.description{
+    text-align: center;
+    color: red;
 }
 
